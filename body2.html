@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: #807777;
+        }
+
+        .imagem {
+            display: block;
+            /* Remove espaços indesejados abaixo da imagem */
+            max-width: 100%;
+            /* Garante que a imagem não ultrapasse o container */
+            height: auto;
+            /* Mantém a proporção da imagem */
+        }
+
+        .caixa {
+            padding: 10px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(255, 255, 255, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            margin-bottom: 15px;
+            /* Espaço entre a imagem e o texto */
+            border-radius: 12px;
+            
+        }
+
+        .bullets {
+            margin-left: 10px;
+            padding: 45px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textobullets {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(250, 132, 132);
+            text-align: justify;
+        }
+
+        .threecheers {
+            margin-left: 10px;
+            padding: 45px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textothreecheers {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(221, 117, 117);
+            text-align: justify;
+        }
+
+        .theblackparade {
+            margin-left: 10px;
+            padding: 23px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textotheblackparade {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(177, 171, 171);
+            text-align: justify;
+        }
+
+        .dangerdays {
+            margin-left: 10px;
+            padding: 46px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textodangerdays {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(48, 162, 177);
+            text-align: justify;
+        }
+
+        .conventionalweapons {
+            margin-left: 10px;
+            padding: 45px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textoweapons {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(202, 173, 145);
+            text-align: justify;
+        }
+
+
+        .maydeath {
+            margin-left: 10px;
+            padding: 30px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textomaydeath {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(131, 139, 248);
+            text-align: justify;
+        }
+
+        .lifeonthemuderscene {
+            margin-left: 10px;
+            padding: 35px;
+            /* Espaço entre a imagem e a borda */
+            background-color: rgba(77, 73, 73, 0.726);
+            /* Cor da "caixa" */
+            display: inline-block;
+            /* Faz o container se ajustar ao tamanho da imagem */
+            border-radius: 12px;
+        }
+
+        .textotheblackparadeisdead {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgb(250, 131, 76);
+            text-align: justify;
+        }
+
+        .data {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+            text-align: justify;
+        }
+
+        .titulo {
+            font-size: 50px;
+            text-align: center;
+            color: rgb(223, 213, 213);
+            font-weight: bold;
+        }
+    </style>
+
+<body>
+    <p class="titulo"> Albúns de Estúdio </p>
+    <div style="display:flex; align-items: flex-start;">
+        <div class="caixa">
+            <div class="imagem">
+                <img src="img/bullets.jpg">
+            </div>
+        </div>
+        <div>
+            <div class="bullets">
+                <p class="textobullets"><span style="color: rgb(184, 84, 84);">I Brought You My Bullets, You
+                        Brought Me Your Love.</span>
+                    é o álbum de estreia da banda americana de rock My Chemical Romance,
+                    pela Eyeball Records. Produzido pelo vocalista da banda Thursday, Geoff Rickly, foi gravado no Nada
+                    Recording Studio em New Windsor, Nova Iorque, em maio de 2002. No documentário da banda de 2006,
+                    Life on the Murder Scene, a banda descreve as difíceis condições em que o vocalista principal Gerard
+                    Way se encontrava durante a gravação do álbum devido a uma dor de dente, o que resultou em um tempo
+                    de gravação mais longo do que o planejado</p>
+                <p class="data"> Lançamento: 23 de julho de 2002
+                    <br>
+                    Gêneros: Emo, Punk rock, Pop punk, Post-hardcore
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/album/3VSl97ITIbXoFQvx2DQ605?utm_source=generator" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div style="display:flex; align-items: flex-start;">
+            <div class="caixa">
+                <div class="imagem">
+                    <img src="img/threecheersforsweetrevenge.jpg">
+                </div>
+            </div>
+            <div>
+                <div class="threecheers">
+                    <p class="textothreecheers"><span style="color: rgb(241, 80, 80);">Three Cheers for Sweet
+                            Revenge.</span>
+                        é o segundo álbum de estúdio da banda de rock americana My Chemical Romance, lançado em 8 de
+                        junho de 2004, pela Reprise Records. Com este álbum, a banda produziu uma musicalidade
+                        mais limpa e menos agressiva do que seu álbum de estreia de 2002, I Brought You My Bullets, You
+                        Brought Me Your Love. Foi o primeiro álbum a contar com Frank Iero em todas as faixas, tal
+                        qual o último com o baterista da formação original, Matt Pelissier, que foi eventualmente
+                        substituído por Bob Bryar, pouco depois do lançamento do disco.
+                    </p>
+                    <p class="data">Lançamento: 8 de junho de 2004
+                        <br>
+                        Gêneros: Emo, Punk rock, Rock alternativo, Pop rock, Pop punk, Post-hardcore
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/3DuiGV3J09SUhvp8gqNx8h?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div style="display:flex; align-items: flex-start;">
+                <div class="caixa">
+                    <div class="imagem">
+                        <img src="img/theblackparade.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div class="theblackparade">
+                        <p class="textotheblackparade"><span style="color: white">The Black Parade</span>
+                            é o terceiro álbum de estúdio da banda de rock norte-americana My Chemical Romance. Lançado
+                            na Europa em 23 de outubro de 2006 e nos Estados Unidos em 24 de outubro de 2006, pela
+                            Reprise Records, foi produzido pela banda em parceria com Rob Cavallo, conhecido por ter
+                            produzido vários álbuns para o Goo Goo Dolls e Green Day. É um álbum de ópera rock e
+                            conceitual centrado em um personagem que está próximo da morte em razão do câncer conhecido
+                            como "O Paciente". O álbum conta a história de sua morte aparente, experiências no pós-vida
+                            e reflexões sobre sua vida. É o único álbum de estúdio da banda a contar com Bob Bryar na
+                            bateria antes de sua saída em 2010.
+                        </p>
+                        <p class="data">Lançamento: 20 de outubro de 2006
+                            <br>
+                            Gêneros: Emo, Punk rock, Rock alternativo, Rock progressivo, Glam rock, Hard rock, Pop
+                            punk
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/0FZK97MXMm5mUQ8mtudjuK?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div style="display:flex; align-items: flex-start;">
+                <div class="caixa">
+                    <div class="imagem">
+                        <img src="img/dangerdays.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div class="dangerdays">
+                        <p class="textodangerdays"><span style="color: rgb(152, 243, 255);">Danger Days: The True
+                                Lives of the Fabulous Killjoys</span> é o quarto álbum de estúdio da banda americana de
+                            rock My Chemical Romance. Suas músicas são associadas ao característico som de rock
+                            alternativo,
+                            juntamente com uma introdução de novos elementos musicais, incluindo power pop, pop rock e
+                            rock eletrônico. A inspiração musical principal para o álbum veio de bandas de rock
+                            contemporâneo, rock psicodélico e protopunk das décadas de sessenta e setenta. Foi o
+                            penúltimo álbum lançado pela banda antes de sua separação de seis anos, de
+                            2013 a 2019.
+                        </p>
+                        <p class="data">Lançamento: 22 de novembro de 2010
+                            <br>
+                            Gêneros: Punk rock, Rock alternativo, Pop rock, Pop punk, Power pop
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/2wPnKggTK3QhYAKL7Q0vvr?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+    <hr>
+    <p class="titulo"> Alúns de Compilação </p>
+    <div style="display:flex; align-items: flex-start;">
+        <div class="caixa">
+            <div class="imagem">
+                <img src="img/conventionalweapons.jpg" style="height: 300px; width: 300px;">
+            </div>
+        </div>
+        <div>
+            <div class="conventionalweapons">
+                <p class="textoweapons"><span style="color: rgb(223, 161, 104);">Conventional Weapons</span>
+                    é um coletânea musical da banda americana de rock My Chemical Romance, produzido por Brendan O'Brien
+                    e lançado como uma série de singles. Marcou o último
+                    lançamento de material de estúdio da banda antes de sua separação de 2013 a 2019.
+                    Esgotados com a
+                    turnê de The Black Parade, o grupo queria fazer uma ruptura consciente com o som
+                    daquele álbum e adotar uma abordagem mais divertida e simplificada.
+                </p>
+                <p class="data">Lançamento: 5 de Fevereiro de 2013
+                    <br>
+                    Gêneros: Rock alternativo, Rock progressivo0 Pop rock, Pop punk, Post-hardcore
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/5s5bl9uqnoGjmlrAz2w4cI?utm_source=generator" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="display:flex; align-items: flex-start;">
+        <div class="caixa">
+            <div class="imagem">
+                <img src="img/maydeathneverstopyou.jpg" style="height: 300px; width: 300px;">
+            </div>
+        </div>
+        <div>
+            <div class="maydeath">
+                <p class="textomaydeath"><span style="color: rgb(173, 111, 253);">May Death Never Stop You</span>
+                    é a primeira coletânia musical de maiores êxitos da banda americana de rock My Chemical Romance,
+                    abrangendo toda a carreira até aquele momento. É o único álbum a contar com o tecladista James
+                    Dewees como membro oficial, tocando no single principal do, "Fake Your Death".Em 29 de novembro de
+                    2013, Gerard postou uma foto da capa do álbum em sua conta no Twitter. Na mesma plataforma e data,
+                    ele subsequentemente respondeu a uma pergunta de um fã sobre a representação da capa e mencionou que
+                    a estátua representada é uma composição de todos os rostos dos membros de My Chemical Romance.
+                </p>
+                <p class="data">Lançamento: 5 de Fevereiro de 2013
+                    <br>
+                    Gêneros: Rock alternativo, Rock progressivo0 Pop rock, Pop punk, Post-hardcore
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/album/1SIpLwZu1R69coxKMH06kw?utm_source=generator" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <hr>
+    <p class="titulo">Albúns Ao Vivo</p>
+    <div>
+        <div style="display:flex; align-items: flex-start;">
+            <div class="caixa">
+                <div class="imagem">
+                    <img src="img/lifeonthemuderscene.jpg" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+            <div>
+                <div class="lifeonthemuderscene">
+                    <p class="textothreecheers"><span style="color: rgb(241, 80, 80);"> Life On The Muder Scene
+                        </span>
+                        é um álbum ao vivo/compilação da banda. O lançamento inclui três discos que documentam toda a
+                        história da
+                        banda desde o início até o presente. Life on the Murder Scene é predominantemente um álbum ao
+                        vivo,
+                        mas também inclui duas faixas demo e uma faixa inédita. O casal na foto da capa são retratados
+                        pelos
+                        modelos Jamisin Matthews e Jaime Andrews, no livreto, na embalagem, na arte do DVD e nos menus
+                        do
+                        DVD. A demo de "Bury Me in Black" foi previamente lançada como faixa bônus no lançamento japonês
+                        de Three Cheers for Sweet Revenge.
+                    </p>
+                    <p class="data">Lançamento: 21 de março de 2006
+                        <br>
+                        Gêneros: Emo, Punk rock, Rock alternativo, Pop rock, Pop punk, Post-hardcore
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/6W6pGKjcVJVwbGHy2YRoeO?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div style="display:flex; align-items: flex-start;">
+            <div class="caixa">
+                <div class="imagem">
+                    <img src="img/venganza.jpg" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+            <div>
+                <div class="maydeath">
+                    <p class="textothreecheers"><span style="color: rgb(241, 80, 80);"> ¡Venganza!
+                        </span>
+                        As faixas apresentam versões embrionárias de canções que seriam posteriormente regravadas e
+                        refinadas, revelando uma intensidade raw e uma atmosfera sombria ainda mais abrasiva e
+                        despojada. A produção lo-fi não é uma escolha estética, mas uma consequência das limitações do
+                        momento, o que confere ao trabalho uma autenticidade quase documental.
+
+                        Liricamente, o álbum já mergulha nos temas que se tornariam marcas registradas: narrativas de
+                        vingança, paixão obsessiva, e imagética gótica são exploradas com uma fúria juvenil e direta. A
+                        violência emocional e a escuridão romântica estão presentes em estado bruto, mostrando a direção
+                        conceptual que seria expandida posteriormente.
+                    </p>
+                    <p class="data">Lançamento: 10 de abril de 2009
+                        <br>
+                        Gêneros: Emo, Punk rock, Rock alternativo, Pop rock, Pop punk, Post-hardcore
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/6W6pGKjcVJVwbGHy2YRoeO?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div style="display:flex; align-items: flex-start;">
+            <div class="caixa">
+                <div class="imagem">
+                    <img src="img/theblackparadeisdead.jpg" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+            <div>
+                <div class="maydeath">
+                    <p class="textotheblackparadeisdead"><span style="color: rgb(255, 159, 135);"> The Black Parade is
+                            Dead!
+                        </span>
+                        O DVD marca a última performance do My Chemical Romance com sua persona fictícia de palco, a
+                        "Black Parade", encerrando assim essa fase específica de sua identidade artística e conceitual.
+                        Durante o show no Palacio de los Deportes, no México, em 7 de outubro de 2007, o grupo se
+                        apresentou pela última vez como os personagens da Black Parade, marcando o fim dessa era em que
+                        esse alter-ego era central para a identidade da banda.
+                        O DVD também conta com a gravação completa de My Chemical Romance no extinto restaurante e casa
+                        de shows Maxwell's em Hoboken, Nova Jérsia, em 24 de outubro de 2007.
+
+
+                    </p>
+                    <p class="data">Lançamento: 1 de julho de 2008
+                        <br>
+                        Gêneros: Emo, Punk rock, Rock alternativo, Pop rock, Pop punk, Post-hardcore
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/7N29psReKsIR8HOltPJqYS?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+</body>

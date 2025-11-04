@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        margin-left: 200px;
+        margin-right: 200px;
+        background-color: #807777;
+
+    }
+
+
+    .titulo {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(223, 213, 213);
+        font-weight: bold;
+    }
+
+    label {
+        font-weight: bold;
+        color: rgb(34, 32, 32);
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        font-size: 16px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+
+    button {
+        width: 100%;
+        padding: 15px;
+        background: #ca2323;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #a10e0e;
+        color: #000;
+        transform: scale(1.05);
+    }
+
+    .caixa {
+        padding: 20px;
+        /* Espaço entre a imagem e a borda */
+        background-color: rgba(77, 73, 73, 0.726);
+        /* Cor da "caixa" */
+        display: inline-block;
+        /* Faz o container se ajustar ao tamanho da imagem */
+        margin-bottom: 15px;
+        /* Espaço entre a imagem e o texto */
+        border-radius: 12px;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <p class="titulo"> Seja Membro - My Chemical Romance </p>
+    <div class="caixa">
+        <form>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" required placeholder="Digite seu nome" size="200" maxlength="90">
+
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required placeholder="Digite seu e-mail">
+
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required placeholder="(DDD) 90000-0000">
+
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" required min="10" max="120" placeholder="Digite sua idade">
+
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" required placeholder="Sua cidade">
+
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" required placeholder="Seu estado">
+
+
+            <label for="musica">CPF:</label>
+            <input type="text" id="musica" required placeholder="Digite seu CPF">
+
+
+            <label for="album">RG:</label>
+            <input type="text" id="album" required placeholder="Digite seu RG">
+
+
+            <label for="show">Já foi a algum show?</label >
+            <select id="show" required>
+                <option value="">Selecione</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="rede">Onde conheceu o site?</label>
+            <input type="text" id="rede" required placeholder="Instagram, TikTok...">
+
+
+
+            <label for="mensagem">Porque quer participar da equipe?:</label>
+            <textarea id="mensagem" rows="4" required placeholder="Escreva sua mensagem"></textarea>
+
+
+            <label for="noticias">Deseja receber notícias por e-mail?</label>
+            <select id="noticias" required>
+                <option value="">Selecione</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+    </div>
+</body>

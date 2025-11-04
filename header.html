@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+		
+		.logo{
+		height: 80px;
+		width: 100px;
+		margin-left: 50px;
+		}
+        
+        h3{
+            font-size: 12px;
+            margin-left: 50px;
+        }
+
+        a {
+            color: #c4bbbb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        /* Quando o mouse passa por cima */
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        /* No momento em que está sendo clicado */
+        a:active {
+            color: #ff0000;
+        }
+
+        /* Estilo para botão */
+        .botao-link {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #464545;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .botao-link:hover {
+            background-color: #6b6868;
+        }
+    </style>
+</head>
+<body>
+    <header>
+	<div style="display: flex; justify-content: space-between; align-items: center; margin-right:100px">
+		<a href="index.html" target="_top"> <img src="img/logo.png" class="logo" >  </a>
+        <h3> <a href="discografia.html" class="botao-link" target="_top"> Discografia </a> </h3>
+		<h3> <a href="integrantes.html" class="botao-link" target="_top"> Integrantes </a> </h3>
+		<h3> <a href="historia.html" class="botao-link" target="_top"> História </a> </h3>
+		<h3> <a href="redessociais.html" class="botao-link" target="_top"> Redes sociais </a> </h3>
+        <h3> <a href="sobrenos.html" class="botao-link" target="_top"> Sobre nós </a> </h3>
+        <h3> <a href="sejamembro.html" class="botao-link" target="_top"> Seja membro </a> </h3>
+
+	</div>
+    </header>
+</body>
+</html>
